@@ -1,0 +1,26 @@
+locators :
+  #common element
+  page title : //*[text()='Guru99 is totally new kind of learning experience.']
+  logoHeader : abc
+  #button
+  registerButtonHeader : abc
+  loginButtonHeader : abc
+  record button : (//*[@aria-label='Tìm kiếm bằng giọng nói'])
+  #frame
+  youtubeVideoFrame : abc
+  #link
+  homeLink : abc
+  blogLink : abc
+
+data :
+  #short presentation text
+  short presentation : [
+    "Search for your Favorite Course"
+  ]
+  allContent : [
+    "Sign in",
+    "Fill in the fields below to sign into your account.",
+    "Forgot password?",
+    "Don't have an account yet?",
+    "Sign up here"
+  ]
