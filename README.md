@@ -15,3 +15,9 @@
   npx playwright test tests/todo-page.spec.ts
 
 Further information: https://playwright.dev/docs/test-cli
+
+======================
+pre-condition: have already source code
+1. npx playwright install
+2. npm install yaml
+3. npx playwright test tests/ui/desktop/TEST_verifyHompage.spec.js
