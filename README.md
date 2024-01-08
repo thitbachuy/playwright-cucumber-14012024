@@ -8,6 +8,8 @@
 #yaml: npm install yaml
 #gmail-tester: npm install --save-dev gmail-tester
 
+4. npm i @cucumber/cucumber
+
 * Command line:
 1. Run all tests: 
   npx playwright test
@@ -20,4 +22,6 @@ Further information: https://playwright.dev/docs/test-cli
 pre-condition: have already source code
 1. npx playwright install
 2. npm install yaml
+4. npm i @cucumber/cucumber
 3. npx playwright test tests/ui/desktop/TEST_verifyHompage.spec.js
+3. npx playwright test tests/features/tiki.feature

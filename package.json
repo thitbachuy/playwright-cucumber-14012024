@@ -6,7 +6,10 @@
   "directories": {
     "test": "tests"
   },
-  "scripts": {},
+  "scripts": {
+    "test": "cucumber-js --config=cucumber.js",
+    "test:failed": "cucumber-js --config=cucumber.js -p rerun @rerun.txt"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thitbachuy/playwright_ver_01.git"
@@ -19,9 +22,14 @@
   },
   "homepage": "https://github.com/thitbachuy/playwright_ver_01#readme",
   "devDependencies": {
-    "@playwright/test": "^1.29.2"
+    "@playwright/test": "^1.29.2",
+    "ts-node": "^10.9.2"
   },
   "dependencies": {
+    "@cucumber/cucumber": "^10.0.1",
+    "dotenv": "^16.3.1",
+    "fs-extra": "^11.2.0",
+    "winston": "^3.11.0",
     "yaml": "^2.2.1"
   }
 }
