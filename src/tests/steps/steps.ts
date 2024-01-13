@@ -17,5 +17,5 @@ When("the title page is {string}",async(title:string)=>{
     expect(actualTitle).toContain(title);
 })
 Then("the user enters {string} into {string} input",async(data:string, fieldName:string)=>{
-    await tikiPage.enterData(data);
+    await tikiPage.enterData(data, fieldName);
 })
