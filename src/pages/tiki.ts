@@ -7,11 +7,12 @@ export default class TikiPage extends BasePage {
     }
 
     private Elements = {
-        searchInput: "//input[@data-view-id='main_search_form_inpu']"
+        "tiki search": "//input[@data-view-id='main_search_form_input']",
+        "tiki search1": "//input[@data-view-id='main_search_form_inpu']"
 
     }
 
-    async enterData(data:string) {
-        await this.page.type(this.Elements.searchInput, data);
+    async enterData(data:string, fieldName: string) {
+        await this.page.type(this.Elements[fieldName], data);
     }
 }
