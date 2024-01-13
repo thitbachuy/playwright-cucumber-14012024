@@ -1,8 +1,8 @@
 {
     "cucumberautocomplete.steps": [
-        "tests/steps/*.ts"
+        "src/tests/steps/*.ts"
     ],
-    "cucumberautocomplete.syncfeatures": "tests/features/*.feature",
+    "cucumberautocomplete.syncfeatures": "src/tests/features/*.feature",
     "cucumberautocomplete.strictGherkinCompletion": true,
     "cucumberautocomplete.strictGherkinValidation": true,
 }

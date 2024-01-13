@@ -5,12 +5,12 @@ module.exports = {
             snippetInterface: "async-await"
         },
         paths: [
-            "tests/features/*.feature"
+            "src/tests/features/*.feature"
         ],
         publishQuiet: false,
         require: [
-            "tests/steps/*.ts",
-            "hooks/hook.ts"
+            "src/tests/steps/*.ts",
+            "src/hooks/hook.ts"
         ],
         requireModule: [
             "ts-node/register"
@@ -33,8 +33,8 @@ module.exports = {
             "ts-node/register"
         ],
         require: [
-            "tests/steps/*.ts",
-            "hooks/hook.ts"
+            "src/tests/steps/*.ts",
+            "src/hooks/hook.ts"
         ],
         format: [
             "progress-bar",
