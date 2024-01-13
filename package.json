@@ -1,5 +1,5 @@
 {
-  "name": "playwright_cucumber_05122023",
+  "name": "playwright-cucumber-14012024",
   "version": "1.0.0",
   "description": "* Project configuration:\r 1. VS Code: download here https://code.visualstudio.com/download\r 2. Playwright (install Node.js first here https://nodejs.org/en/download/): run cmd: npm init playwright@latest\r     - Select Typescript/ Javascript: for config file\r     - Set name for folder that have testscripts\r 3. Git: download here https://git-scm.com/downloads",
   "main": "index.js",
@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thitbachuy/playwright_cucumber_05122023.git"
+    "url": "git+https://github.com/thitbachuy/playwright-cucumber-14012024.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thitbachuy/playwright_cucumber_05122023/issues"
+    "url": "https://github.com/thitbachuy/playwright-cucumber-14012024/issues"
   },
-  "homepage": "https://github.com/thitbachuy/playwright_cucumber_05122023#readme",
+  "homepage": "https://github.com/thitbachuy/playwright-cucumber-14012024#readme",
   "devDependencies": {
     "@playwright/test": "^1.29.2",
     "ts-node": "^10.9.2"

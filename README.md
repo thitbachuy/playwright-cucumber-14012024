@@ -20,8 +20,6 @@ Further information: https://playwright.dev/docs/test-cli
 
 ======================
 pre-condition: have already source code
-1. npx playwright install
-2. npm install yaml
-4. npm i @cucumber/cucumber
-3. npx playwright test src/tests/ui/desktop/TEST_verifyHompage.spec.js
-3. npx playwright test src/tests/features/tiki.feature
+1. npm i
+2. npm run test           run script test
+3. npm run test:failed    run failed test that is logged in rerun.txt
