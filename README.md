@@ -21,5 +21,6 @@ Further information: https://playwright.dev/docs/test-cli
 ======================
 pre-condition: have already source code
 1. npm i
-2. npm run test           run script test
-3. npm run test:failed    run failed test that is logged in rerun.txt
+2. npx playwright install 
+3. npm run test           run script test
+4. npm run test:failed    run failed test that is logged in rerun.txt
